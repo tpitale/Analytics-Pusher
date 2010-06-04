@@ -5,8 +5,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "analytics_pusher"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Push create/edit/destroy forward to be tracked as pageviews}
+    gem.description = %Q{Simple, Rails 3 gem with a jQuery UJS "driver" to permit pushing analytics forward on redirect
+to the next page rendered. Also includes url helpers link/button/mail \_to with options for
+virtual pageview or event tracking.}
     gem.email = "tpitale@gmail.com"
     gem.homepage = "http://github.com/tpitale/analytics_pusher"
     gem.authors = ["tpitale"]

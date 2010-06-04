@@ -1,8 +1,12 @@
-= analytics_pusher
+analytics_pusher
+================
 
-Description goes here.
+Simple, Rails 3 gem with a jQuery UJS "driver" to permit pushing analytics forward on redirect
+to the next page rendered. Also includes url helpers link/button/mail \_to with options for
+virtual pageview or event tracking.
 
-== Note on Patches/Pull Requests
+Note on Patches/Pull Requests
+=============================
  
 * Fork the project.
 * Make your feature addition or bug fix.
@@ -12,6 +16,7 @@ Description goes here.
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-== Copyright
+Copyright
+=========
 
 Copyright (c) 2010 tpitale. See LICENSE for details.
